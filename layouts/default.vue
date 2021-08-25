@@ -1,6 +1,7 @@
 <template>
  <div id="main-layout">
     <main class="main-wrap">
+      <Navbar/>
       <section class="main-content">
         <nuxt />
       </section>
@@ -11,12 +12,15 @@
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue'
+
 export default {
+  components: { Navbar }
 }
 </script>
 
-<style scoped>
-  /* #main-layout {
+<style lang="scss" scoped>
+  #main-layout {
     display: flex;
     width: 100%;
     height: 100%;
@@ -24,8 +28,8 @@ export default {
     font-family: "Montserrat", sans-serif;
 
     .main-wrap {
-        width: 62%;
-        background: #F2F7FA;
+      width: 62%;
+      background: #e0ebf1;
     }
 
     .main-content {
@@ -42,5 +46,5 @@ export default {
       justify-content: center;
       align-items: flex-start;
     }
-  } */
+  }
 </style>
