@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <h1>New PAGE</h1>
 </template>
 
 <script>

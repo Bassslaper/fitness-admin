@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'fitness-admin',
+    title: 'Fitness Admin',
     htmlAttrs: {
-      lang: 'en'
+      lang: ''
     },
     meta: [
       { charset: 'utf-8' },
@@ -15,11 +15,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/style',
   ],
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
